@@ -2,6 +2,8 @@
   "name": "events-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "proxy": "http://localhost:8000",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -28,6 +30,5 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
-  },
-  "private": true
+  }
 }
